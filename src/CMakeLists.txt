@@ -17,3 +17,4 @@ set(SOURCE
 #)
 
 add_executable(${PROJECT_NAME} ${SOURCE} ${HEADER})
+target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})
